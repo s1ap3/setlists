@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>Setlists</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+  :root{
+    --bg:#0f1115; --panel:#181b22; --panel2:#1f232c; --text:#f2f4f8; --muted:#9aa3b2;
+    --accent:#5b8cff; --accentq:#2a3a5f; --line:#272c36;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{background:var(--bg);color:var(--text);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       -webkit-tap-highlight-color:transparent;overscroll-behavior:none}
+  #app{max-width:720px;margin:0 auto;padding:16px 16px 150px}
+  h1{font-size:22px;margin:8px 0 4px}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+  .back{color:var(--accent);background:none;border:0;font-size:15px;padding:8px 0;cursor:pointer}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0;cursor:pointer;display:flex;align-items:center;gap:14px}
+  .card:active{background:var(--panel2)}
+  .card .t{font-weight:600}
+  .card .m{color:var(--muted);font-size:13px}
+  .thumb{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,#5b8cff,#8a5bff);display:flex;align-items:center;justify-content:center;font-size:20px;flex:0 0 auto}
+  .row{display:flex;align-items:center;gap:12px;padding:12px 10px;border-radius:10px;cursor:pointer}
+  .row:active{background:var(--panel2)}
+  .row.playing{background:var(--accentq)}
+  .row .n{color:var(--muted);width:26px;text-align:right;font-variant-numeric:tabular-nums;font-size:14px}
+  .row .ti{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .row .d{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+  .row.playing .n,.row.playing .d{color:#cdd8ff}
+  .bar{position:fixed;left:0;right:0;bottom:0;background:var(--panel2);border-top:1px solid var(--line);
+       padding:10px 14px calc(10px + env(safe-area-inset-bottom));z-index:5}
+  .barInner{max-width:720px;margin:0 auto}
+  .np{display:flex;align-items:center;gap:12px}
+  .np .ti{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+  .np .sub2{color:var(--muted);font-size:12px}
+  .ctrls{display:flex;align-items:center;justify-content:center;gap:26px;margin-top:8px}
+  .ctrls button{background:none;border:0;color:var(--text);font-size:26px;cursor:pointer;padding:4px}
+  .play{width:52px;height:52px;border-radius:50%;background:var(--accent)!important;color:#fff!important;font-size:22px!important;display:flex;align-items:center;justify-content:center}
+  .seek{display:flex;align-items:center;gap:10px;margin-top:8px}
+  .seek input{flex:1}
+  .seek .time{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums;min-width:38px}
+  input[type=range]{-webkit-appearance:none;height:4px;background:var(--line);border-radius:4px;outline:none}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:var(--accent)}
+  .gate{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;z-index:20;padding:24px}
+  .gate input{font-size:16px;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);width:min(300px,80vw)}
+  .gate button{font-size:16px;padding:12px 20px;border-radius:10px;border:0;background:var(--accent);color:#fff;cursor:pointer}
+  .gate .err{color:#ff6b6b;font-size:13px;height:16px}
+  .hidden{display:none!important}
+  .pill{display:inline-block;background:var(--accentq);color:#cdd8ff;font-size:12px;padding:4px 10px;border-radius:20px;margin:2px 6px 10px 0;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="gate" id="gate">
+  <div class="thumb" style="width:64px;height:64px;font-size:30px">🎸</div>
+  <div style="font-weight:600;font-size:18px">Setlists</div>
+  <input id="pw" type="password" placeholder="Password" autocomplete="current-password">
+  <div class="err" id="pwerr"></div>
+  <button id="pwbtn">Enter</button>
+</div>
+
+<div id="app" class="hidden">
+  <div id="view"></div>
+</div>
+
+<div class="bar hidden" id="bar">
+  <div class="barInner">
+    <div class="np">
+      <div class="thumb" id="npThumb">🎵</div>
+      <div style="flex:1;min-width:0">
+        <div class="ti" id="npTitle">—</div>
+        <div class="sub2" id="npSet">—</div>
+      </div>
+    </div>
+    <div class="seek">
+      <span class="time" id="cur">0:00</span>
+      <input type="range" id="seek" min="0" max="1000" value="0">
+      <span class="time" id="dur">0:00</span>
+    </div>
+    <div class="ctrls">
+      <button id="prev">⏮</button>
+      <button class="play" id="toggle">▶</button>
+      <button id="next">⏭</button>
+    </div>
+  </div>
+</div>
+
+<audio id="audio" preload="metadata"></audio>
+<script src="app.js"></script>
+</body>
+</html>
