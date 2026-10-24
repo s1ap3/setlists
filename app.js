@@ -107,6 +107,27 @@ audio.addEventListener('timeupdate', ()=>{
 });
 $('#seek').addEventListener('input', e=>{ if(audio.duration) audio.currentTime = (e.target.value/1000)*audio.duration; });
 
+// ---------- volume ----------
+const volEl = $('#volume'), muteEl = $('#mute');
+let lastVol = parseFloat(localStorage.getItem('vol'));
+if(isNaN(lastVol)) lastVol = 1;
+audio.volume = lastVol;
+volEl.value = Math.round(lastVol*100);
+function volIcon(){ muteEl.textContent = (audio.muted || audio.volume===0) ? '🔇' : (audio.volume < 0.5 ? '🔉' : '🔊'); }
+volEl.addEventListener('input', e=>{
+  const v = e.target.value/100;
+  audio.volume = v; audio.muted = false;
+  if(v>0) lastVol = v;
+  localStorage.setItem('vol', v);
+  volIcon();
+});
+muteEl.onclick = ()=>{
+  if(audio.muted || audio.volume===0){ audio.muted=false; audio.volume=lastVol||1; volEl.value=Math.round(audio.volume*100); }
+  else { audio.muted=true; volEl.value=0; }
+  volIcon();
+};
+volIcon();
+
 // ---------- Media Session (lock screen / background controls) ----------
 function setMedia(set, t){
   if(!('mediaSession' in navigator)) return;
