@@ -1,411 +1,439 @@
 [
- {
-  "id": "flowertones",
-  "name": "The Flowertones — Full Setlist",
-  "artist": "The Flowertones",
-  "dir": "audio/a60ee15fb182934058f1e0a5962f977b",
-  "tracks": [
-   {
-    "title": "Do You Want to Know a Secret",
-    "file": "01.mp3",
-    "dur": 264.2
-   },
-   {
-    "title": "Don't Take My Baby Away",
-    "file": "02.mp3",
-    "dur": 130.5
-   },
-   {
-    "title": "Side By Side",
-    "file": "03.mp3",
-    "dur": 174.2
-   },
-   {
-    "title": "Saw You Walkin",
-    "file": "04.mp3",
-    "dur": 99.2
-   },
-   {
-    "title": "Make It Alone",
-    "file": "05.mp3",
-    "dur": 147.7
-   },
-   {
-    "title": "Loneliness",
-    "file": "06.mp3",
-    "dur": 121.3
-   },
-   {
-    "title": "Can We Be More Than Friends?",
-    "file": "07.mp3",
-    "dur": 174.9
-   },
-   {
-    "title": "Someday",
-    "file": "08.mp3",
-    "dur": 130.1
-   },
-   {
-    "title": "Will You Get Along With Me",
-    "file": "09.mp3",
-    "dur": 95.4
-   },
-   {
-    "title": "Yours Truly",
-    "file": "10.mp3",
-    "dur": 158.7
-   },
-   {
-    "title": "Three Sweet Words",
-    "file": "11.mp3",
-    "dur": 142.5
-   },
-   {
-    "title": "Love Me Too",
-    "file": "12.mp3",
-    "dur": 126.8
-   },
-   {
-    "title": "Dreams",
-    "file": "13.mp3",
-    "dur": 131.3
-   },
-   {
-    "title": "Meant For Me and You",
-    "file": "14.mp3",
-    "dur": 144.1
-   },
-   {
-    "title": "Alone With You",
-    "file": "15.mp3",
-    "dur": 125.2
-   },
-   {
-    "title": "Cantina",
-    "file": "16.mp3",
-    "dur": 184.9
-   },
-   {
-    "title": "Cecilia",
-    "file": "17.mp3",
-    "dur": 231.1
-   },
-   {
-    "title": "All I Want To Do Is Hold You Tight",
-    "file": "18.mp3",
-    "dur": 162.5
-   },
-   {
-    "title": "Things Are Strange",
-    "file": "19.mp3",
-    "dur": 149.8
-   },
-   {
-    "title": "Falling In Love With You",
-    "file": "20.mp3",
-    "dur": 151.9
-   },
-   {
-    "title": "Love Will Make You Cry",
-    "file": "21.mp3",
-    "dur": 193.3
-   },
-   {
-    "title": "A Summer's Place",
-    "file": "22.mp3",
-    "dur": 348.1
-   },
-   {
-    "title": "Goin Steady",
-    "file": "23.mp3",
-    "dur": 167.9
-   },
-   {
-    "title": "Always I Will Go With You",
-    "file": "24.mp3",
-    "dur": 156.3
-   },
-   {
-    "title": "Summer's Come",
-    "file": "25.mp3",
-    "dur": 149.4
-   },
-   {
-    "title": "Stargazer",
-    "file": "26.mp3",
-    "dur": 95.0
-   },
-   {
-    "title": "Still As The Night",
-    "file": "27.mp3",
-    "dur": 172.7
-   },
-   {
-    "title": "Ginchy",
-    "file": "28.mp3",
-    "dur": 115.7
-   }
-  ]
- },
- {
-  "id": "victorian-gunter",
-  "name": "Victorian / Gunter Hotel",
-  "artist": "The Flowertones",
-  "dir": "audio/9d7df4a2f72d3bd6d74ccce6cdff0074",
-  "tracks": [
-   {
-    "title": "Do You Want to Know a Secret",
-    "note": "E · Instrumental",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/01.mp3",
-    "dur": 264.2
-   },
-   {
-    "title": "Can We Be More Than Friends?",
-    "note": "B · SPUD",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/07.mp3",
-    "dur": 174.9
-   },
-   {
-    "title": "If You Love Me",
-    "note": "D · SPUD, Cover"
-   },
-   {
-    "title": "Fool For You",
-    "note": "Bb · SPUD"
-   },
-   {
-    "title": "She Makes It Easy",
-    "note": "F · SPUD"
-   },
-   {
-    "title": "One Cup Of Coffee and a Cigarette",
-    "note": "D · Micah, Cover"
-   },
-   {
-    "title": "Lonesome For You",
-    "note": "F# · SPUD"
-   },
-   {
-    "title": "Slowly But Surely",
-    "note": "F · SPUD · Bo Diddley beat"
-   },
-   {
-    "title": "Yours Truly",
-    "note": "E · SPUD",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/10.mp3",
-    "dur": 158.7
-   },
-   {
-    "title": "True Love is Waiting",
-    "note": "G# · SPUD · Peggy Sue beat"
-   },
-   {
-    "title": "Dearest",
-    "note": "C · Micah, Cover"
-   },
-   {
-    "title": "Ginchy",
-    "note": "Em · Instrumental, Cover",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/28.mp3",
-    "dur": 115.7
-   },
-   {
-    "title": "One Desire",
-    "note": "B · Micah, Cover"
-   },
-   {
-    "title": "Was I Dreamin'",
-    "note": "F · Micah, Cover"
-   },
-   {
-    "title": "Still As The Night",
-    "note": "G · Micah, Cover",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/27.mp3",
-    "dur": 172.7
-   },
-   {
-    "title": "Gone Train",
-    "note": "E · instrumental · surf beat"
-   },
-   {
-    "title": "Someday",
-    "note": "A · Cover",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/08.mp3",
-    "dur": 130.1
-   },
-   {
-    "title": "Sit Right Down and Cry / Blue Moon",
-    "note": "C · Cover · medley"
-   },
-   {
-    "title": "Forever",
-    "note": "C→C# · instrumental · 6/8"
-   },
-   {
-    "title": "Will You Get Along With Me",
-    "note": "C→C# · Scott",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/09.mp3",
-    "dur": 95.4
-   },
-   {
-    "title": "More Than I Can Say",
-    "note": "D · Micah, Cover"
-   },
-   {
-    "title": "Goin Steady",
-    "note": "D · Micah, Cover",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/23.mp3",
-    "dur": 167.9
-   },
-   {
-    "title": "A Summer's Place",
-    "note": "Bb · Instrumental · 6/8",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/22.mp3",
-    "dur": 348.1
-   },
-   {
-    "title": "Side By Side",
-    "note": "E · Micah · cut time",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/03.mp3",
-    "dur": 174.2
-   },
-   {
-    "title": "Saw You Walkin",
-    "note": "F · Scott",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/04.mp3",
-    "dur": 99.2
-   },
-   {
-    "title": "Make It Alone",
-    "note": "C · Justin",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/05.mp3",
-    "dur": 147.7
-   },
-   {
-    "title": "Loneliness",
-    "note": "A · Justin · surf beat",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/06.mp3",
-    "dur": 121.3
-   },
-   {
-    "title": "Stargazer",
-    "note": "E · gallop beat",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/26.mp3",
-    "dur": 95.0
-   },
-   {
-    "title": "Summer's Come",
-    "note": "E · rumba on toms",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/25.mp3",
-    "dur": 149.4
-   },
-   {
-    "title": "Three Sweet Words",
-    "note": "G# · Micah · midtempo",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/11.mp3",
-    "dur": 142.5
-   },
-   {
-    "title": "Love Me Too",
-    "note": "F · Justin · fast",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/12.mp3",
-    "dur": 126.8
-   },
-   {
-    "title": "Dreams",
-    "note": "E · Scott · midtempo",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/13.mp3",
-    "dur": 131.3
-   },
-   {
-    "title": "Meant For Me and You",
-    "note": "C# · Micah · mid-fast",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/14.mp3",
-    "dur": 144.1
-   },
-   {
-    "title": "Alone With You",
-    "note": "C# · Micah · mid-fast",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/15.mp3",
-    "dur": 125.2
-   },
-   {
-    "title": "Cantina",
-    "note": "F · instrumental · fast",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/16.mp3",
-    "dur": 184.9
-   },
-   {
-    "title": "Cecilia",
-    "note": "G · Justin",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/17.mp3",
-    "dur": 231.1
-   },
-   {
-    "title": "All I Want To Do Is Hold You Tight",
-    "note": "G# · Scott · 6/8",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/18.mp3",
-    "dur": 162.5
-   },
-   {
-    "title": "Things Are Strange",
-    "note": "A · Micah · disco beat",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/19.mp3",
-    "dur": 149.8
-   },
-   {
-    "title": "Falling In Love With You",
-    "note": "F# · Micah · mid-fast",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/20.mp3",
-    "dur": 151.9
-   },
-   {
-    "title": "Love Will Make You Cry",
-    "note": "E · Micah · midtempo",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/21.mp3",
-    "dur": 193.3
-   },
-   {
-    "title": "Don't Take My Baby Away",
-    "note": "Ab · Justin",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/02.mp3",
-    "dur": 130.5
-   },
-   {
-    "title": "Always I Will Go With You",
-    "note": "F# · Justin · surf beat",
-    "src": "audio/a60ee15fb182934058f1e0a5962f977b/24.mp3",
-    "dur": 156.3
-   },
-   {
-    "title": "Be My Baby Tonight",
-    "note": "C · Micah (if he wants to)",
-    "file": "42.mp3",
-    "dur": 127.0
-   },
-   {
-    "title": "Runaway",
-    "note": "Am"
-   },
-   {
-    "divider": "Reserves"
-   },
-   {
-    "title": "Donna",
-    "note": "F · Cover"
-   },
-   {
-    "title": "We Belong Together",
-    "note": "F · Cover"
-   },
-   {
-    "title": "Look At That Moon",
-    "note": "E · Cover"
-   },
-   {
-    "title": "Woo Hoo",
-    "note": "E · Instrumental, Cover"
-   }
-  ]
- }
+  {
+    "id": "flowertones",
+    "name": "The Flowertones — Full Setlist",
+    "artist": "The Flowertones",
+    "dir": "audio/a60ee15fb182934058f1e0a5962f977b",
+    "tracks": [
+      {
+        "title": "Do You Want to Know a Secret",
+        "file": "01.mp3",
+        "dur": 264.2
+      },
+      {
+        "title": "Don't Take My Baby Away",
+        "file": "02.mp3",
+        "dur": 130.5
+      },
+      {
+        "title": "Side By Side",
+        "file": "03.mp3",
+        "dur": 174.2
+      },
+      {
+        "title": "Saw You Walkin",
+        "file": "04.mp3",
+        "dur": 99.2
+      },
+      {
+        "title": "Make It Alone",
+        "file": "05.mp3",
+        "dur": 147.7
+      },
+      {
+        "title": "Loneliness",
+        "file": "06.mp3",
+        "dur": 121.3
+      },
+      {
+        "title": "Can We Be More Than Friends?",
+        "file": "07.mp3",
+        "dur": 174.9
+      },
+      {
+        "title": "Someday",
+        "file": "08.mp3",
+        "dur": 130.1
+      },
+      {
+        "title": "Will You Get Along With Me",
+        "file": "09.mp3",
+        "dur": 95.4
+      },
+      {
+        "title": "Yours Truly",
+        "file": "10.mp3",
+        "dur": 158.7
+      },
+      {
+        "title": "Three Sweet Words",
+        "file": "11.mp3",
+        "dur": 142.5
+      },
+      {
+        "title": "Love Me Too",
+        "file": "12.mp3",
+        "dur": 126.8
+      },
+      {
+        "title": "Dreams",
+        "file": "13.mp3",
+        "dur": 131.3
+      },
+      {
+        "title": "Meant For Me and You",
+        "file": "14.mp3",
+        "dur": 144.1
+      },
+      {
+        "title": "Alone With You",
+        "file": "15.mp3",
+        "dur": 125.2
+      },
+      {
+        "title": "Cantina",
+        "file": "16.mp3",
+        "dur": 184.9
+      },
+      {
+        "title": "Cecilia",
+        "file": "17.mp3",
+        "dur": 231.1
+      },
+      {
+        "title": "All I Want To Do Is Hold You Tight",
+        "file": "18.mp3",
+        "dur": 162.5
+      },
+      {
+        "title": "Things Are Strange",
+        "file": "19.mp3",
+        "dur": 149.8
+      },
+      {
+        "title": "Falling In Love With You",
+        "file": "20.mp3",
+        "dur": 151.9
+      },
+      {
+        "title": "Love Will Make You Cry",
+        "file": "21.mp3",
+        "dur": 193.3
+      },
+      {
+        "title": "A Summer's Place",
+        "file": "22.mp3",
+        "dur": 348.1
+      },
+      {
+        "title": "Goin Steady",
+        "file": "23.mp3",
+        "dur": 167.9
+      },
+      {
+        "title": "Always I Will Go With You",
+        "file": "24.mp3",
+        "dur": 156.3
+      },
+      {
+        "title": "Summer's Come",
+        "file": "25.mp3",
+        "dur": 149.4
+      },
+      {
+        "title": "Stargazer",
+        "file": "26.mp3",
+        "dur": 95.0
+      },
+      {
+        "title": "Still As The Night",
+        "file": "27.mp3",
+        "dur": 172.7
+      },
+      {
+        "title": "Ginchy",
+        "file": "28.mp3",
+        "dur": 115.7
+      }
+    ]
+  },
+  {
+    "id": "victorian-gunter",
+    "name": "Victorian / Gunter Hotel",
+    "artist": "The Flowertones",
+    "dir": "audio/9d7df4a2f72d3bd6d74ccce6cdff0074",
+    "tracks": [
+      {
+        "title": "Do You Want to Know a Secret",
+        "note": "E · Instrumental",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/01.mp3",
+        "dur": 264.2
+      },
+      {
+        "title": "Can We Be More Than Friends?",
+        "note": "B · SPUD",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/07.mp3",
+        "dur": 174.9
+      },
+      {
+        "title": "If You Love Me",
+        "note": "D · SPUD, Cover",
+        "file": "02.mp3",
+        "dur": 176
+      },
+      {
+        "title": "Fool For You",
+        "note": "Bb · SPUD",
+        "file": "03.mp3",
+        "dur": 158
+      },
+      {
+        "title": "She Makes It Easy",
+        "note": "F · SPUD",
+        "file": "04.mp3",
+        "dur": 193
+      },
+      {
+        "title": "One Cup Of Coffee and a Cigarette",
+        "note": "D · Micah, Cover",
+        "file": "05.mp3",
+        "dur": 113
+      },
+      {
+        "title": "Lonesome For You",
+        "note": "F# · SPUD",
+        "file": "06.mp3",
+        "dur": 161
+      },
+      {
+        "title": "Slowly But Surely",
+        "note": "F · SPUD · Bo Diddley beat",
+        "file": "07.mp3",
+        "dur": 96
+      },
+      {
+        "title": "Yours Truly",
+        "note": "E · SPUD",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/10.mp3",
+        "dur": 158.7
+      },
+      {
+        "title": "True Love is Waiting",
+        "note": "G# · SPUD · Peggy Sue beat",
+        "file": "09.mp3",
+        "dur": 148
+      },
+      {
+        "title": "Dearest",
+        "note": "C · Micah, Cover",
+        "file": "10.mp3",
+        "dur": 113
+      },
+      {
+        "title": "Ginchy",
+        "note": "Em · Instrumental, Cover",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/28.mp3",
+        "dur": 115.7
+      },
+      {
+        "title": "One Desire",
+        "note": "B · Micah, Cover",
+        "file": "12.mp3",
+        "dur": 138
+      },
+      {
+        "title": "Was I Dreamin'",
+        "note": "F · Micah, Cover",
+        "file": "13.mp3",
+        "dur": 186
+      },
+      {
+        "title": "Still As The Night",
+        "note": "G · Micah, Cover",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/27.mp3",
+        "dur": 172.7
+      },
+      {
+        "title": "Gone Train",
+        "note": "E · instrumental · surf beat",
+        "file": "15.mp3",
+        "dur": 151
+      },
+      {
+        "title": "Someday",
+        "note": "A · Cover",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/08.mp3",
+        "dur": 130.1
+      },
+      {
+        "title": "Sit Right Down and Cry / Blue Moon",
+        "note": "C · Cover · medley",
+        "file": "17.mp3",
+        "dur": 123
+      },
+      {
+        "title": "Forever",
+        "note": "C→C# · instrumental · 6/8",
+        "file": "18.mp3",
+        "dur": 143
+      },
+      {
+        "title": "Will You Get Along With Me",
+        "note": "C→C# · Scott",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/09.mp3",
+        "dur": 95.4
+      },
+      {
+        "title": "More Than I Can Say",
+        "note": "D · Micah, Cover",
+        "file": "20.mp3",
+        "dur": 165
+      },
+      {
+        "title": "Goin Steady",
+        "note": "D · Micah, Cover",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/23.mp3",
+        "dur": 167.9
+      },
+      {
+        "title": "A Summer's Place",
+        "note": "Bb · Instrumental · 6/8",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/22.mp3",
+        "dur": 348.1
+      },
+      {
+        "title": "Side By Side",
+        "note": "E · Micah · cut time",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/03.mp3",
+        "dur": 174.2
+      },
+      {
+        "title": "Saw You Walkin",
+        "note": "F · Scott",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/04.mp3",
+        "dur": 99.2
+      },
+      {
+        "title": "Make It Alone",
+        "note": "C · Justin",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/05.mp3",
+        "dur": 147.7
+      },
+      {
+        "title": "Loneliness",
+        "note": "A · Justin · surf beat",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/06.mp3",
+        "dur": 121.3
+      },
+      {
+        "title": "Stargazer",
+        "note": "E · gallop beat",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/26.mp3",
+        "dur": 95.0
+      },
+      {
+        "title": "Summer's Come",
+        "note": "E · rumba on toms",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/25.mp3",
+        "dur": 149.4
+      },
+      {
+        "title": "Three Sweet Words",
+        "note": "G# · Micah · midtempo",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/11.mp3",
+        "dur": 142.5
+      },
+      {
+        "title": "Love Me Too",
+        "note": "F · Justin · fast",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/12.mp3",
+        "dur": 126.8
+      },
+      {
+        "title": "Dreams",
+        "note": "E · Scott · midtempo",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/13.mp3",
+        "dur": 131.3
+      },
+      {
+        "title": "Meant For Me and You",
+        "note": "C# · Micah · mid-fast",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/14.mp3",
+        "dur": 144.1
+      },
+      {
+        "title": "Alone With You",
+        "note": "C# · Micah · mid-fast",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/15.mp3",
+        "dur": 125.2
+      },
+      {
+        "title": "Cantina",
+        "note": "F · instrumental · fast",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/16.mp3",
+        "dur": 184.9
+      },
+      {
+        "title": "Cecilia",
+        "note": "G · Justin",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/17.mp3",
+        "dur": 231.1
+      },
+      {
+        "title": "All I Want To Do Is Hold You Tight",
+        "note": "G# · Scott · 6/8",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/18.mp3",
+        "dur": 162.5
+      },
+      {
+        "title": "Things Are Strange",
+        "note": "A · Micah · disco beat",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/19.mp3",
+        "dur": 149.8
+      },
+      {
+        "title": "Falling In Love With You",
+        "note": "F# · Micah · mid-fast",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/20.mp3",
+        "dur": 151.9
+      },
+      {
+        "title": "Love Will Make You Cry",
+        "note": "E · Micah · midtempo",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/21.mp3",
+        "dur": 193.3
+      },
+      {
+        "title": "Don't Take My Baby Away",
+        "note": "Ab · Justin",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/02.mp3",
+        "dur": 130.5
+      },
+      {
+        "title": "Always I Will Go With You",
+        "note": "F# · Justin · surf beat",
+        "src": "audio/a60ee15fb182934058f1e0a5962f977b/24.mp3",
+        "dur": 156.3
+      },
+      {
+        "title": "Be My Baby Tonight",
+        "note": "C · Micah (if he wants to)",
+        "file": "42.mp3",
+        "dur": 127.0
+      },
+      {
+        "title": "Runaway",
+        "note": "Am"
+      },
+      {
+        "divider": "Reserves"
+      },
+      {
+        "title": "Donna",
+        "note": "F · Cover"
+      },
+      {
+        "title": "We Belong Together",
+        "note": "F · Cover"
+      },
+      {
+        "title": "Look At That Moon",
+        "note": "E · Cover"
+      },
+      {
+        "title": "Woo Hoo",
+        "note": "E · Instrumental, Cover"
+      }
+    ]
+  }
 ]
